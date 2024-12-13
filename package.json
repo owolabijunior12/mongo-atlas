@@ -1,0 +1,32 @@
+{
+  "name": "mongo-atlas",
+  "version": "1.0.0",
+  "description": "This is an experimental nodejs  with mongodb application",
+  "main": "app.tsx",
+  "scripts": {
+    "dev": "nodemon app.tsx",
+    "start": "node app.tsx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "mongo-atlas"
+  },
+  "keywords": [
+    "mongodb",
+    "nodejs",
+    "atlas"
+  ],
+  "author": "Yipmong Said",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
